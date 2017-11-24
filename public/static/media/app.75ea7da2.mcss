@@ -1,0 +1,5 @@
+@import "./reset.css";
+body,#root{
+	width: 100%;
+	background:#EDF8FC url(../statics/images/bg.jpg) no-repeat;
+}

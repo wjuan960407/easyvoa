@@ -1,0 +1,96 @@
+.list{
+	width:1024px;
+	margin: 0 auto;
+}
+.list-top{
+   
+    margin: 4px auto 0 auto;
+    height: 133px;
+    background: #fff;
+}
+.list-img1{
+    float:left;
+}
+.list-img2{
+    float: right
+}
+.list-nav{
+    height: 45px;
+    background: #EDF8FC url('../../statics/images/studio_nav_bg.png') no-repeat;
+}
+.list-nav-con{
+    height: 45px;
+    margin-left: 110px;
+}
+.list-nav-item{
+    color:#cc0000;
+    float: left;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item-first{
+    width:146px;
+    composes:list-nav-item ;
+}
+.nav-item-second{
+    width:164px;
+    composes:list-nav-item ;
+}
+.nav-item-third{
+    width:146px;
+    composes:list-nav-item ;
+}
+.list-content{
+    background: #fff;
+}
+.list-content-left{
+    position: relative;
+    margin: 30px 10px 10px 10px;
+    width: 660px;
+    float: left;
+    border: 3px solid #ec0012;
+    border-radius: 20px;
+    background:#fff;
+}
+.list-content-right{
+    margin: 30px 10px 10px 0;
+    width: 300px;
+    float: right;
+    border: 3px solid #ec0012;
+    border-radius: 20px;
+}
+.list-left-title{
+     position: absolute;
+    left: 20px;
+    top: -20px;
+}
+.list-left-cover{
+    margin: 55px 0 0 35px;
+}
+.list-ago-listen{
+    font-size: 20px;
+    margin: 10px 30px 0 30px;
+    padding: 0 0 10px 0;
+    color: #333;
+    border-bottom: 1px dotted #ccc;
+}
+.list-listen-con{
+    list-style-type: disc;
+    color: #cc0000;
+    margin: 5px 10px 10px 40px;
+}
+.list-listen-item{
+    cursor: pointer;
+    color:#004190;
+    font-size: 14px;
+    height: 30px;
+}
+.list-listen-item:hover{
+    color:red;
+}
+.list-content-right-item{
+    font-size: 16px;
+    color:green;
+    margin:10px;
+}

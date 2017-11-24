@@ -1,0 +1,85 @@
+.index-content{
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 4px;
+	background:white;
+	border: 1px solid #f44;
+}
+.index-title{
+	line-height: 25px;
+    font-weight: normal;
+    background: #f44;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.index-list{
+	margin-top:10px;
+}
+.index-list-con{
+	color: #004499;
+	height: 22px;
+	font-size: 12px;
+	margin-left: 10px
+}
+.list-con-time{
+	margin-left: 10px
+}
+.list-con-title{
+	margin-right: 10px;
+	color:#3b8070;
+}
+.index-list-link{
+	color: #004499;
+}
+.index-clock{
+	position: absolute;
+	top:-30px;
+	right: 10px;
+	width: 500px;
+	height: 500px;
+
+}
+.index-video{
+	position: absolute;
+	bottom:70px;
+	right: 66px;
+	width: 350px;
+
+}
+.index-video-con{
+	height:300px
+}
+.friend-link{
+	width: 1024px;
+	margin:0 auto;
+	margin-top: 4px;
+	border:1px solid #666;
+}
+.friend-link-title{
+	font-size: 12px;
+    background: #0066cc;
+    line-height: 25px;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: normal;
+}
+.friend-link-list{
+	height: 75px;
+	background: #fff;
+}
+.friend-list-item{
+	cursor: pointer;
+	line-height: 25px;
+    margin: 0 20px;
+    float: left;
+    text-align: center;
+    width: 84px;
+    color:#3D81F2;
+
+}
+.friend-list-item:hover{
+	color:#666;
+	text-decoration: underline;
+}
